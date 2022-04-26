@@ -2,7 +2,6 @@
 	
 function converter_graus() {
 	var graus = document.getElementById("graus").value;
-	graus = graus.toFixed(5);
 	
 	//CALCULA MINUTOS
 	var minutos = graus * 60;
