@@ -13,10 +13,10 @@ function converter_graus() {
 	var milesimos = graus * 17.77777777778;
 	
 	//RESPONDE NA TELA
-	document.getElementById("graus").value = graus;
-	document.getElementById("minutos").value = minutos;
-	document.getElementById("segundos").value = segundos;
-	document.getElementById("milesimos").value = milesimos;
+	document.getElementById("graus").value = graus.toFixed(6);
+	document.getElementById("minutos").value = minutos.toFixed(6);
+	document.getElementById("segundos").value = segundos.toFixed(6);
+	document.getElementById("milesimos").value = milesimos.toFixed(6);
 	
 }
 
@@ -33,10 +33,10 @@ function converter_minutos() {
 	var milesimos = minutos * 0.2962962962963;
 	
 	//RESPONDE NA TELA
-	document.getElementById("graus").value = graus;
-	document.getElementById("minutos").value = minutos;
-	document.getElementById("segundos").value = segundos;
-	document.getElementById("milesimos").value = milesimos;
+	document.getElementById("graus").value = graus.toFixed(6);
+	document.getElementById("minutos").value = minutos.toFixed(6);
+	document.getElementById("segundos").value = segundos.toFixed(6);
+	document.getElementById("milesimos").value = milesimos.toFixed(6);
 }
 
 function converter_segundos() {
@@ -52,10 +52,10 @@ function converter_segundos() {
 	var milesimos = segundos * 0.004938271604938;
 	
 	//RESPONDE NA TELA
-	document.getElementById("graus").value = graus;
-	document.getElementById("minutos").value = minutos;
-	document.getElementById("segundos").value = segundos;
-	document.getElementById("milesimos").value = milesimos;
+	document.getElementById("graus").value = graus.toFixed(6);
+	document.getElementById("minutos").value = minutos.toFixed(6);
+	document.getElementById("segundos").value = segundos.toFixed(6);
+	document.getElementById("milesimos").value = milesimos.toFixed(6);
 }
 
 function converter_milesimos() {
@@ -71,15 +71,15 @@ function converter_milesimos() {
 	var segundos = milesimos * 202.5;
 	
 	//RESPONDE NA TELA
-	document.getElementById("graus").value = graus;
-	document.getElementById("minutos").value = minutos;
-	document.getElementById("segundos").value = segundos;
-	document.getElementById("milesimos").value = milesimos;
+	document.getElementById("graus").value = graus.toFixed(6);
+	document.getElementById("minutos").value = minutos.toFixed(6);
+	document.getElementById("segundos").value = segundos.toFixed(6);
+	document.getElementById("milesimos").value = milesimos.toFixed(6);
 }
 
 function limpar() {
-	document.getElementById("graus").value = "0";
-	document.getElementById("minutos").value = "0";
-	document.getElementById("segundos").value = "0";
-	document.getElementById("milesimos").value = "0";
+	document.getElementById("graus").value = "";
+	document.getElementById("minutos").value = "";
+	document.getElementById("segundos").value = "";
+	document.getElementById("milesimos").value = "";
 }
